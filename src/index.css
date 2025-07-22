@@ -1,0 +1,24 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Example custom CSS for purple color */
+:root {
+  --bs-purple: #800080; /* Or your desired purple hex code */
+}
+.text-purple {
+  color: var(--bs-purple) !important;
+}
+.bg-purple {
+  background-color: var(--bs-purple) !important;
+}
+.bg-blue{
+  background-color: #007bff !important; /* Bootstrap blue */
+}
+.from-purple { /* For gradient start */
+    background-image: linear-gradient(to right, var(--bs-indigo), var(--bs-purple));
+}
